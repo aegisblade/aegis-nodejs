@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://www.aegisblade.com">
-    <img src="https://www.aegisblade.com/images/BigCloud.png" alt="Logo" width="80" height="80">
+    <img src="https://www.aegisblade.com/images/BigCloud.png" alt="Logo" width="80">
   </a>
 
   <h3 align="center">AegisBlade Node.js Client</h3>
@@ -13,7 +13,7 @@
     <a href="https://www.aegisblade.com/docs"><strong>Read the docs »</strong></a>
     <br />
     <br />
-    <a href="www.github.com/aegisblade/examples">Examples</a>
+    <a href="https://www.github.com/aegisblade/examples">Examples</a>
     ·
     <a href="https://www.aegisblade.com/account/register">Sign Up for an API Key</a>
     ·
