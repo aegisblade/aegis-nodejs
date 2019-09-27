@@ -7,6 +7,7 @@ const https = require('https');
 const http = require('http');
 
 const { URL } = require('url');
+const {trace} = require('./trace');
 
 /*
  * Internal class for performing API operations.
@@ -241,7 +242,10 @@ const Api = function(apiKey, apiEndpoint, verifySsl=true) {
             try {
                 responseBody = JSON.parse(responseBody);
             } catch (e) {
-                throw responseBody;
+                trace("Error parsing json response: ", console.err);
+                trace(response, console.err);
+                
+                throw new Error(responseBody);
             }
         }
 
