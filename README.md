@@ -1,5 +1,5 @@
 <!-- PROJECT LOGO -->
-<br />
+
 <p align="center">
   <a href="https://www.aegisblade.com">
     <img src="https://www.aegisblade.com/images/BigCloud.png" alt="Logo" width="80">
@@ -8,7 +8,11 @@
   <h3 align="center">AegisBlade Node.js Client</h3>
 
   <p align="center">
-    The node.js client library for AegisBlade.
+    <img src="https://img.shields.io/npm/v/aegisblade" alt="npm version">
+  </p>
+
+  <p align="center">
+    Deploy & run your code in a single function call.
     <br />
     <a href="https://www.aegisblade.com/docs"><strong>Read the docs »</strong></a>
     <br />
