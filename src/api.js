@@ -244,7 +244,7 @@ const Api = function(apiKey, apiEndpoint, verifySsl=true) {
             } catch (e) {
                 trace("Error parsing json response: ", console.err);
                 trace(response, console.err);
-                
+
                 throw new Error(responseBody);
             }
         }
@@ -253,12 +253,6 @@ const Api = function(apiKey, apiEndpoint, verifySsl=true) {
     };
 
     this.baseRequest = async (verifySsl, method, urlStr, headers, body) => {
-        // if (!verifySsl) {
-        //     process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
-        // } else {
-        //     process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 1;
-        // }
-
         let url = new URL(urlStr);
         let expectContinue = headers && headers["Expect"] === "100-Continue";
 
