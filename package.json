@@ -1,0 +1,42 @@
+{
+  "name": "aegisblade",
+  "version": "0.2.0",
+  "description": "The AegisBlade Node.js client package. Infrastructure for Coders. Make one function call to deploy and run any function in your codebase. https://www.aegisblade.com",
+  
+  "main": "src/main.js",
+
+  "scripts": {
+    "test": "node test.js",
+    "generate-docs": "bash ./docs/gendocs.sh"
+  },
+
+  "homepage": "https://www.aegisblade.com/",
+  "bugs": {
+    "url": "https://github.com/aegisblade/aegis-nodejs",
+    "email": "support@aegisblade.com"
+  },
+  "author": {
+    "name": "AegisBlade",
+    "email": "welovedevs@aegisblade.com",
+    "url": "https://www.aegisblade.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aegisblade/aegis-nodejs"
+  },
+  "engines": {
+    "node": ">=8.0"
+  },
+  "license": "LGPL-2.1",
+  "dependencies": {},
+  "keywords": [
+    "aegisblade",
+    "server",
+    "aws", "ec2",
+    "devops", 
+    "infrastructure",
+    "infrastructure as code",
+    "serverless",
+    "kubernetes"
+  ]
+}

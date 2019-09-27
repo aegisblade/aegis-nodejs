@@ -1,0 +1,12 @@
+{
+  "name": "aegisblade",
+  "version": "0.2.0",
+  "description": "AegisBlade node.js client.",
+  "main": "src/client.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Bryan Thornbury @brthor",
+  "license": "SEE LICENSE FILE.",
+  "dependencies": {}
+}

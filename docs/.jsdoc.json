@@ -1,0 +1,31 @@
+
+{
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc"]
+    },
+    "source": {
+        "include": ["src", "package.json", "out/HOME.md"],
+        "includePattern": "(.js$|.md$)",
+        "excludePattern": "(node_modules/|docs)"
+    },
+    "plugins": [
+        "version-plugin"
+    ],
+    "templates": {
+        "default": {
+          "includeDate": false,
+          "outputSourceFiles": false
+        },
+        "referenceTitle": "AegisBlade",
+        "disableSort": false,
+        "collapse": false
+    },
+    "opts": {
+        "destination": "./out/",
+        "encoding": "utf8",
+        "private": false,
+        "recurse": true,
+        "template": "/template"
+    }
+}
