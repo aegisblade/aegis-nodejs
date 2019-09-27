@@ -23,8 +23,6 @@
     ·
     <a href="https://github.com/aegisblade/aegis-nodejs/issues">Report Bug</a>
   </p>
-
-  
 </p>
 
 ## Installation
