@@ -88,4 +88,11 @@ if (require.main === module) {
 
 [Node.js Client Reference Docs](https://www.aegisblade.com/docs/reference/nodejs)
 
+<!-- CONTACT -->
+## Contact
+
+AegisBlade - [@aegisbladehq](https://twitter.com/aegisbladehq) - welovedevs@aegisblade.com
+
+Project Link: [https://github.com/aegisblade/aegis-nodejs](https://github.com/aegisblade/aegis-nodejs)
+
 
