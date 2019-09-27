@@ -8,7 +8,9 @@
   <h3 align="center">AegisBlade Node.js Client</h3>
 
   <p align="center">
-    <img src="https://img.shields.io/npm/v/aegisblade" alt="npm version">
+    <img src="https://img.shields.io/npm/v/aegisblade" alt="npm version" />
+    <img src="https://img.shields.io/node/v/aegisblade" alt="supported node versions" />
+    <img src="https://img.shields.io/github/license/aegisblade/aegis-nodejs" alt="license">
   </p>
 
   <p align="center">
