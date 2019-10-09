@@ -20,4 +20,4 @@ container_name="localhost/aegisblade_nodejs_client_docs_generator"
 
 (cd "$DIR/build" && docker build --build-arg "userid=`id -u`" -t $container_name .)
 
-docker run -it --rm -v "$DIR/..":/app $container_name "$@"
+docker run --rm -v "$DIR/..":/app $container_name "$@"
