@@ -11,8 +11,6 @@ RUN apt-get update && apt-get install -qqy watch git
 RUN mkdir /template
 RUN git clone https://github.com/aegisblade/jsdoc-template.git /template
 
-WORKDIR /app
-
 RUN groupmod -g 1001 node \
   && usermod -u 1001 -g 1001 node
 
@@ -21,7 +19,11 @@ ENV userid=${userid}
 
 RUN groupadd -r container_user && useradd --no-log-init -u ${userid} -m -r -g container_user container_user
 
-COPY --chown=container_user:container_user ./entrypoint.sh /entrypoint.sh
+RUN mkdir /app && chown container_user:container_user /app
+WORKDIR /app
+
+COPY --chown=container_user:container_user ./docs/build/entrypoint.sh /entrypoint.sh
+COPY --chown=container_user:container_user . /app
 RUN chown -R container_user:container_user /template
 USER container_user
 
