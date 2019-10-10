@@ -9,7 +9,6 @@ RUN npm install -g jsdoc
 RUN apt-get update && apt-get install -qqy watch git
 
 RUN mkdir /template
-RUN git clone https://github.com/aegisblade/jsdoc-template.git /template
 
 RUN groupmod -g 1001 node \
   && usermod -u 1001 -g 1001 node

@@ -5,8 +5,12 @@
 # This file may be used under the terms of the GNU Lesser General Public License, version 2.1.
 # For more details see: https://www.gnu.org/licenses/lgpl-2.1.html
 
+set -e 
+
 # Version
 VERSION=`node -e 'process.stdout.write(require("./package.json").version)'`
+
+git clone https://github.com/aegisblade/jsdoc-template.git /template
 
 mkdir -p ./out
 sed -e s/@VERSION/${VERSION}/g './docs/HOME.md' > ./out/HOME.md

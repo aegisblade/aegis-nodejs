@@ -4,3 +4,5 @@ devtest.sh
 .idea/
 dist/
 *.tgz
+
+.DS_Store
